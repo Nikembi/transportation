@@ -17,12 +17,12 @@ form{
   display: flex;
   flex-direction: column;
   padding: 2vw 4vw;
-  width: 90%;
-  max-width: 600px;
+  width: 600px;
+  min-width: none;
   border-radius: 10px;}
 
 form h3{
-  color: #555;
+  color: #000000;
   font-weight: 800;
   margin-bottom: 20px;}
 
@@ -47,6 +47,13 @@ form input, form textarea{
     border-radius: 30px;
   }
   .fa-solid.fa-house{
-    padding-left: 400px;
+    margin-left: 400px;
+    height: 100%;
     color: #001660;
-      }
+    font-size: 20px;
+    display: block;
+  }
+  .homepg{
+    height: 100%;
+    width: 10px;
+  }
